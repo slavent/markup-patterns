@@ -1,0 +1,52 @@
+html, body{
+	height: 100%;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper{
+	width: 1000px;
+	height: 100%;
+	margin: auto;
+}
+
+header{
+	height: 100px;
+	background: #ddd;
+}
+
+main{
+	min-height: 500px;
+}
+
+.box{
+	display: inline-block;
+	vertical-align: top;
+	width: 191px;
+	margin: 0 7px 20px 0;
+}
+
+.box:nth-child(5n+5){
+	margin: 0;
+}
+
+.box .img{
+	background: #999;
+	height: 170px;
+	padding: 10px;
+}
+
+.box p{
+	color: #999;
+	font: 14px Arial;
+	padding: 10px;
+	margin: 0;
+}
+
+footer{
+	height: 100px;
+	background: #ddd;
+}

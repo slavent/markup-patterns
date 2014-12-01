@@ -1,0 +1,43 @@
+html, body{
+	height: 100%;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper{
+	width: 1000px;
+	height: 100%;
+	margin: auto;
+}
+
+header{
+	background: #ddd;
+	height: 100px;
+}
+
+main{
+	min-height: 500px;
+}
+
+.col{
+	min-height: inherit;
+}
+
+.col.left{
+	float: left;
+	width: 200px;
+	background: #333;
+}
+
+.col.main{
+	height: 100%;
+	background: #999;
+}
+
+footer{
+	background: #ddd;
+	height: 100px;
+}
