@@ -1,0 +1,42 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #000;
+	color: #fff;
+	font: 16px "Open Sans";
+}
+
+.wrp{
+	width: 400px;
+	margin: auto;
+}
+
+.box{
+	position: relative;
+}
+
+.box-content{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	font-size: 0;
+}
+
+.box-content:after{
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.box-content-wrp{
+	display: inline-block;
+	width: 100%;
+}
+
+.box-content__date,
+.box-content__name{
+	font-size: 12px;
+}
